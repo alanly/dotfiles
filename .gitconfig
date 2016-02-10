@@ -1,12 +1,14 @@
-[color]
-	ui = true
 [alias]
-	squash = !HEAD_COMMIT=$(git rev-list @ -n 1) BASE_COMMIT=$(git merge-base @ origin/master) && git reset --soft $BASE_COMMIT && git commit --reuse-message=$HEAD_COMMIT~$[$(git rev-list $BASE_COMMIT..$HEAD_COMMIT --count)-1] --edit
-	amend = commit --amend -C @
+  squash = !HEAD_COMMIT=$(git rev-list @ -n 1) BASE_COMMIT=$(git merge-base @ origin/master) && git reset --soft $BASE_COMMIT && git commit --reuse-message=$HEAD_COMMIT~$[$(git rev-list $BASE_COMMIT..$HEAD_COMMIT --count)-1] --edit
+  amend = commit --amend -C @
+[color]
+  ui = true
+[core]
+  editor = vim
 [push]
-	default = current
+  default = current
 [pull]
-	rebase = true
+  rebase = true
 [user]
-	name = Alan Ly
-	email = hello@alan.ly
+  name = Alan Ly
+  email = hello@alan.ly
