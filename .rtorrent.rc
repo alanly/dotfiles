@@ -1,0 +1,7 @@
+session = ~/.session
+port_range = 6935-6935
+encryption = allow_incoming,require
+dht = auto
+dht_port = 6881
+peer_exchange = yes
+check_hash = no
