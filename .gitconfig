@@ -2,6 +2,7 @@
   amend = commit --amend -C @
   a = add
   f = fetch
+  p = pull
   br = branch
   ci = commit
   co = checkout
