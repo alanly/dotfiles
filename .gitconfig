@@ -1,6 +1,7 @@
 [alias]
   amend = commit --amend -C @
   a = add
+  f = fetch
   br = branch
   ci = commit
   co = checkout
