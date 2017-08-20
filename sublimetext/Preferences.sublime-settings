@@ -1,0 +1,39 @@
+{
+	"caret_style": "phase",
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Medium).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"ensure_single_trailing_newline": true,
+	"font_face": "Input",
+	"font_size": 15,
+	"gruvbox_accent_green": true,
+	"gruvbox_animate_icons": true,
+	"gruvbox_disable_borders": true,
+	"gruvbox_scrollbar_width_s": true,
+	"gruvbox_sidebar_comfortable": true,
+	"gruvbox_sidebar_font_size_12": true,
+	"gruvbox_statusbar_s": true,
+	"gruvbox_tabs_xs": true,
+	"highlight_line": true,
+	"ignore_whitespace_on_current_line": false,
+	"ignore_whitespace_only_lines": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"remove_trailing_whitespace_on_save": true,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"scroll_past_end": true,
+	"theme": "gruvbox (Dark) (Medium).sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}
