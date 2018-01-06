@@ -18,6 +18,7 @@ brew cask install \
   android-platform-tools \
   appcleaner \
   filebot \
+  inssider \
   java \
   slack \
   steam \
