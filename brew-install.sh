@@ -15,20 +15,22 @@ brew install \
 
 # Cask
 brew cask install \
+  android-platform-tools \
   appcleaner \
   filebot \
-  firefox \
-  google-chrome \
   java \
   slack \
   steam \
   tidal \
   transmit \
-  visual-studio-code
+  visual-studio-code \
+  vlc
 
 # Versions
 brew tap caskroom/versions  
 brew cask install \
+  firefoxdeveloperedition
+  google-chrome-beta
   iterm2-nightly
 
 # Fonts
