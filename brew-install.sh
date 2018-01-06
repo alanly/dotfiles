@@ -9,6 +9,7 @@ brew install \
   ffmpeg \
   fish \
   git \
+  golang \
   openssh \
   ripgrep \
   ruby-install \
