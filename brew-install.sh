@@ -1,3 +1,5 @@
+#!/usr/bin/sh
+
 # Core
 brew install \
   aria2 \
@@ -15,13 +17,17 @@ brew install \
 
 # Cask
 brew cask install \
+  1password \
+  alfred \
   android-platform-tools \
   appcleaner \
+  bartender \
   filebot \
   inssider \
   java \
   slack \
   steam \
+  spectacle \
   tidal \
   transmit \
   visual-studio-code \
@@ -30,8 +36,8 @@ brew cask install \
 # Versions
 brew tap caskroom/versions  
 brew cask install \
-  firefoxdeveloperedition
-  google-chrome-beta
+  firefoxdeveloperedition \
+  google-chrome-beta \
   iterm2-nightly
 
 # Fonts
@@ -44,3 +50,4 @@ brew cask install \
 brew tap caskroom/drivers
 brew cask install \
   logitech-options
+
