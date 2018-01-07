@@ -5,8 +5,6 @@ brew install \
   aria2 \
   chruby \
   chruby-fish \
-  docker \
-  docker-compose \
   exa \
   ffmpeg \
   fish \
@@ -26,6 +24,7 @@ brew cask install \
   android-platform-tools \
   appcleaner \
   bartender \
+  docker-edge \
   filebot \
   google-drive-file-stream \
   insomnia \
