@@ -25,6 +25,7 @@ brew cask install \
   appcleaner \
   bartender \
   filebot \
+  google-drive-file-stream \
   insomnia \
   inssider \
   java \
