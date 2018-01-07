@@ -3,6 +3,7 @@
 # Core
 brew install \
   aria2 \
+  autojump \
   chruby \
   chruby-fish \
   exa \
