@@ -24,6 +24,7 @@ brew cask install \
   appcleaner \
   bartender \
   filebot \
+  insomnia \
   inssider \
   java \
   slack \
