@@ -19,6 +19,7 @@ brew install \
 # Cask
 brew cask install \
   1password \
+  aerial \
   alfred \
   android-platform-tools \
   appcleaner \
