@@ -5,6 +5,8 @@ brew install \
   aria2 \
   chruby \
   chruby-fish \
+  docker \
+  docker-compose \
   exa \
   ffmpeg \
   fish \
