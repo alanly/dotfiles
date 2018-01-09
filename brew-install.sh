@@ -11,6 +11,7 @@ brew install \
   fish \
   git \
   golang \
+  mtr \
   openssh \
   ripgrep \
   ruby-install \
