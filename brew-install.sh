@@ -13,6 +13,7 @@ brew install \
   golang \
   mtr \
   openssh \
+  python3 \
   ripgrep \
   ruby-install \
   telnet \
