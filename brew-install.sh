@@ -33,6 +33,7 @@ brew cask install \
   insomnia \
   inssider \
   java \
+  musicbrainz-picard \
   slack \
   steam \
   spectacle \
