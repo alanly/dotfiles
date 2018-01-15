@@ -27,6 +27,7 @@ brew cask install \
   android-platform-tools \
   appcleaner \
   bartender \
+  devdocs \
   docker-edge \
   filebot \
   google-drive-file-stream \
