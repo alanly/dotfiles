@@ -17,6 +17,7 @@ brew install \
   ripgrep \
   ruby-install \
   telnet \
+  tmux \
   wget
 
 # Cask
