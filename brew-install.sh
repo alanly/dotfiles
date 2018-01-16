@@ -14,6 +14,7 @@ brew install \
   mtr \
   openssh \
   python3 \
+  reattach-to-user-namespace \
   ripgrep \
   ruby-install \
   telnet \
