@@ -20,6 +20,7 @@ brew install \
   reattach-to-user-namespace \
   ripgrep \
   ruby-install \
+  rust \
   telnet \
   tmux \
   wget
