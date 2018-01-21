@@ -1,5 +1,8 @@
 #!/usr/bin/sh
 
+# Grab sudo
+sudo true
+
 # Core
 brew install \
   aria2 \
