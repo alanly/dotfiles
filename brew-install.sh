@@ -30,7 +30,6 @@ brew cask install \
   appcleaner \
   bartender \
   devdocs \
-  docker-edge \
   filebot \
   google-drive-file-stream \
   insomnia \
@@ -48,7 +47,8 @@ brew cask install \
 # Versions
 brew tap caskroom/versions  
 brew cask install \
-  firefoxdeveloperedition \
+  docker-edge \
+  firefox-developer-edition \
   google-chrome-beta \
   iterm2-nightly
 
