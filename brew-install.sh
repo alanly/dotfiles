@@ -46,8 +46,7 @@ brew cask install \
   spectacle \
   tidal \
   transmit \
-  visual-studio-code \
-  vlc
+  visual-studio-code
 
 # Versions
 brew tap caskroom/versions  
@@ -55,7 +54,7 @@ brew cask install \
   docker-edge \
   firefox-developer-edition \
   google-chrome-beta \
-  iterm2-nightly
+  vlc-nightly
 
 # Fonts
 brew tap caskroom/fonts
@@ -67,4 +66,3 @@ brew cask install \
 brew tap caskroom/drivers
 brew cask install \
   logitech-options
-
