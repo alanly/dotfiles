@@ -23,7 +23,8 @@ brew install \
   rust \
   telnet \
   tmux \
-  wget
+  wget \
+  youtube-dl
 
 # Cask
 brew cask install \
