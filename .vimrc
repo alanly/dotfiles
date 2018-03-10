@@ -3,3 +3,8 @@ colorscheme desert
 set background=dark
 set number
 set backspace=2
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+set cursorline
+set colorcolumn=120
