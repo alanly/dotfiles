@@ -35,6 +35,7 @@ brew cask install \
   appcleaner \
   bartender \
   devdocs \
+  displaycal \
   filebot \
   google-drive-file-stream \
   insomnia \
