@@ -44,7 +44,6 @@ brew cask install \
   slack \
   steam \
   spectacle \
-  tidal \
   transmit \
   visual-studio-code
 
@@ -52,15 +51,13 @@ brew cask install \
 brew tap caskroom/versions  
 brew cask install \
   docker-edge \
-  firefox-developer-edition \
   google-chrome-beta \
   vlc-nightly
 
 # Fonts
 brew tap caskroom/fonts
 brew cask install \
-  font-fira-code \
-  font-input
+  font-ibm-plex
   
 # Drivers
 brew tap caskroom/drivers
