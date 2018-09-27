@@ -44,6 +44,7 @@ brew cask install \
   slack \
   steam \
   spectacle \
+  telegram \
   transmit \
   visual-studio-code
 
