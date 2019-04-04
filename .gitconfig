@@ -9,6 +9,8 @@
   st = status
   squash = !HEAD_COMMIT=$(git rev-list @ -n 1) BASE_COMMIT=$(git merge-base @ origin/master) && git reset --soft $BASE_COMMIT && git commit --reuse-message=$HEAD_COMMIT~$[$(git rev-list $BASE_COMMIT..$HEAD_COMMIT --count)-1] --edit
   chp = cherry-pick
+  rom = "!git fetch origin master && git rebase origin/master"
+  po = "!git push origin +\"$(git rev-parse --abbrev-ref HEAD)\""
 [color]
   ui = true
 [core]
@@ -20,3 +22,11 @@
 [user]
   name = Alan Ly
   email = hello@alan.ly
+[oh-my-zsh]
+  hide-dirty = true
+[diff]
+	algorithm = patience
+[protocol]
+	version = 2
+[credential]
+	helper = osxkeychain
