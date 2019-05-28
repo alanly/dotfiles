@@ -11,6 +11,9 @@
   chp = cherry-pick
   rom = "!git fetch origin master && git rebase origin/master"
   po = "!git push origin +\"$(git rev-parse --abbrev-ref HEAD)\""
+  irom = "!git fetch origin master && git rebase -i origin/master"
+  cl = "!git branch --no-contains $(git rev-list @ -n 1) --merged | xargs git br -d"
+  clb = "!CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co master && git cl && git co $CURRENT_BRANCH"
 [color]
   ui = true
 [core]
@@ -24,6 +27,7 @@
   email = hello@alan.ly
 [oh-my-zsh]
   hide-dirty = true
+
 [diff]
 	algorithm = patience
 [protocol]
