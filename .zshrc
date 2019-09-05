@@ -1,27 +1,19 @@
-export ZSH="$HOME/.oh-my-zsh"
+export PATH=$HOME/.cargo/bin:/usr/local/sbin:$PATH
+export ZSH="/Users/alan/.oh-my-zsh"
+export LANG="en_US.UTF-8"
 
-ZSH_THEME="agnoster"
+ZSH_THEME="miloshadzic"
 COMPLETION_WAITING_DOTS="true"
-DISABLE_UNTRACKED_FILES_DIRTY="true"
-plugins=(rails git ruby)
-
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+DISABLED_UNTRACKED_FILES_DIRTY="true"
+plugins=(git ruby)
 
 source $ZSH/oh-my-zsh.sh
 
-export LANG=en_US.UTF-8
-export SSH_KEY_PATH="$HOME/.ssh/id_ed25519"
-export DEFAULT_USER="alanly"
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-unalias be
-function be {
-  bundle check || bundle install && bundle exec $@
-}
+ulimit -S -n 2048
 
-function rt {
-  if grep -q "spring-commands-testunit" Gemfile; then
-    bundle check || bundle install && bundle exec spring testunit $@
-  else
-    bundle check || bundle install && bundle exec ruby -Itest $@
-  fi
-}
+alias d="dev"
+alias g="git"
+alias dt="dev test"
+alias dtc="dev typecheck"
