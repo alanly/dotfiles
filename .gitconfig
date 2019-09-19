@@ -15,10 +15,12 @@
   po = "!git push origin +\"$(git rev-parse --abbrev-ref HEAD)\""
   cl = "!git branch --no-contains $(git rev-list @ -n 1) --merged | xargs git br -d"
   clb = "!CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co master && git cl && git co $CURRENT_BRANCH"
+  ultraclean = !git gc --aggressive && git prune
 [color]
   ui = true
 [core]
   editor = vim
+	commitGraph = true
 [push]
   default = current
 [pull]
@@ -28,10 +30,11 @@
   email = hello@alan.ly
 [oh-my-zsh]
   hide-dirty = true
-
 [diff]
 	algorithm = patience
 [protocol]
 	version = 2
 [credential]
 	helper = osxkeychain
+[gc]
+	writeCommitGraph = true
