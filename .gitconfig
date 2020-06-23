@@ -20,7 +20,7 @@
   ui = true
 [core]
   editor = vim
-	commitGraph = true
+  commitGraph = true
 [push]
   default = current
 [pull]
@@ -31,10 +31,10 @@
 [oh-my-zsh]
   hide-dirty = true
 [diff]
-	algorithm = patience
+  algorithm = patience
 [protocol]
-	version = 2
+  version = 2
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [gc]
-	writeCommitGraph = true
+  writeCommitGraph = true
