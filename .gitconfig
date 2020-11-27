@@ -1,40 +1,28 @@
 [alias]
-  amend = commit --amend -C @
-  a = add
-  f = fetch
-  p = pull
-  br = branch
-  ci = commit
-  co = checkout
-  st = status
-  squash = !HEAD_COMMIT=$(git rev-list @ -n 1) BASE_COMMIT=$(git merge-base @ origin/master) && git reset --soft $BASE_COMMIT && git commit --reuse-message=$HEAD_COMMIT~$[$(git rev-list $BASE_COMMIT..$HEAD_COMMIT --count)-1] --edit
-  chp = cherry-pick
-  rom = "!git rebase origin/master"
-  from = "!git fetch origin master && git rebase origin/master"
-  irom = "!git rebase -i origin/master"
-  po = "!git push origin +\"$(git rev-parse --abbrev-ref HEAD)\""
-  cl = "!git branch --no-contains $(git rev-list @ -n 1) --merged | xargs git br -d"
-  clb = "!CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co master && git cl && git co $CURRENT_BRANCH"
-  ultraclean = !git gc --aggressive && git prune
+	a = add
+	br = branch
+	ch = cherry-pick
+	ci = commit
+	cl = !git branch --no-contains $(git rev-list @ -n 1) --merged | xargs git br -d
+	clb = !CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co master && git cl && git co $CURRENT_BRANCH
+	co = checkout
+	from = !git fetch origin/master && git rom
+	po = !git push origin +\"$(git rev-parse --abbrev-ref HEAD)\"
+	rom = rebase origin/master
+	s = status
+	ultraclean = !CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co master && git from && git cl && git gc --aggressive && git prune && git co $CURRENT_BRANCH
 [color]
-  ui = true
+	ui = true
 [core]
-  editor = vim
-  commitGraph = true
-[push]
-  default = current
-[pull]
-  rebase = true
-[user]
-  name = Alan Ly
-  email = hello@alan.ly
-[oh-my-zsh]
-  hide-dirty = true
+	editor = vim
+	commitGraph = true
 [diff]
-  algorithm = patience
-[protocol]
-  version = 2
-[credential]
-  helper = osxkeychain
+	algorithm = patience
 [gc]
-  writeCommitGraph = true
+	writeCommitGraph = true
+[protocol]
+	version = 2
+[push]
+	default = current
+[pull]
+	rebase = true
