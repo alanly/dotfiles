@@ -35,6 +35,7 @@ brew install \
   ripgrep \
   slack-beta \
   speedtest \
+  spotify \
   starship \
   sublime-text \
   telegram-desktop-dev \
