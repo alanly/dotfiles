@@ -30,6 +30,8 @@ brew install \
   keka \
   lsd \
   messenger \
+  mosh \
+  mtr \
   ripgrep \
   slack-beta \
   speedtest \
