@@ -3,65 +3,40 @@
 # Grab sudo
 sudo true
 
-# Core
-brew install \
-  aria2 \
-  autojump \
-  chruby \
-  chruby-fish \
-  exa \
-  ffmpeg \
-  fish \
-  git \
-  golang \
-  mtr \
-  openssh \
-  python3 \
-  reattach-to-user-namespace \
-  ripgrep \
-  ruby-install \
-  rust \
-  telnet \
-  tmux \
-  wget \
-  youtube-dl
+brew tap \
+  homebrew/cask \
+  homebrew/cask-fonts \
+  homebrew/cask-versions \
+  teamookla/speedtest
+  
+brew update
 
-# Cask
-brew cask install \
-  1password \
-  aerial \
+brew install \
+  1password-beta \
+  adobe-creative-cloud \
   alfred \
-  android-platform-tools \
+  amethyst \
   appcleaner \
   bartender \
-  devdocs \
-  displaycal \
   filebot \
-  google-drive-file-stream \
-  insomnia \
-  inssider \
-  java \
-  musicbrainz-picard \
-  slack \
-  steam \
-  spectacle \
-  telegram \
+  font-blex-mono-nerd-font \
+  font-fira-code-nerd-font \
+  font-jetbrains-mono-nerd-font \
+  git \
+  google-chrome \
+  intel-power-gadget \
+  istat-menus \
+  iterm2-nightly \
+  keka \
+  lsd \
+  messenger \
+  ripgrep \
+  slack-beta \
+  speedtest \
+  starship \
+  sublime-text \
+  telegram-desktop-dev \
   transmit \
-  visual-studio-code
-
-# Versions
-brew tap caskroom/versions  
-brew cask install \
-  docker-edge \
-  google-chrome-beta \
-  vlc-nightly
-
-# Fonts
-brew tap caskroom/fonts
-brew cask install \
-  font-ibm-plex
-  
-# Drivers
-brew tap caskroom/drivers
-brew cask install \
-  logitech-options
+  vim \
+  vmware-fusion \
+  zoxide
