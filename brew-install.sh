@@ -41,5 +41,6 @@ brew install \
   telegram-desktop-dev \
   transmit \
   vim \
+  vlc \
   vmware-fusion \
   zoxide
