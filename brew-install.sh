@@ -32,6 +32,7 @@ brew install \
   messenger \
   mosh \
   mtr \
+  notion \
   ripgrep \
   slack-beta \
   speedtest \
