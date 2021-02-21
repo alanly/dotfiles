@@ -33,7 +33,10 @@ brew install \
   mosh \
   mtr \
   notion \
+  nzbget \
+  openemu \
   ripgrep \
+  roon \
   slack-beta \
   speedtest \
   spotify \
@@ -41,7 +44,9 @@ brew install \
   sublime-text \
   telegram-desktop-dev \
   transmit \
+  tuple \
   vim \
+  visual-studio-code \
   vlc \
   vmware-fusion \
   zoxide
