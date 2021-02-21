@@ -17,6 +17,7 @@ brew install \
   alfred \
   amethyst \
   appcleaner \
+  aria2 \
   bartender \
   filebot \
   font-blex-mono-nerd-font \
