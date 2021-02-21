@@ -25,6 +25,7 @@ brew install \
   font-jetbrains-mono-nerd-font \
   git \
   google-chrome \
+  homebrew/cask/nzbget \
   homebrew/cask-drivers/canon-eos-webcam-utility \
   intel-power-gadget \
   istat-menus \
@@ -35,7 +36,6 @@ brew install \
   mosh \
   mtr \
   notion \
-  nzbget \
   openemu \
   ripgrep \
   roon \
