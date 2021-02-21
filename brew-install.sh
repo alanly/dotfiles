@@ -25,6 +25,7 @@ brew install \
   font-jetbrains-mono-nerd-font \
   git \
   google-chrome \
+  homebrew/cask-drivers/canon-eos-webcam-utility \
   intel-power-gadget \
   istat-menus \
   iterm2-nightly \
