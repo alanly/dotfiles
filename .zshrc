@@ -1,19 +1,15 @@
-export PATH=$HOME/.cargo/bin:/usr/local/sbin:$PATH
-export ZSH="/Users/alan/.oh-my-zsh"
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+
 export LANG="en_US.UTF-8"
+export GOPATH="/Users/alan/go"
+export PATH="/usr/local/sbin:$PATH"
 
-ZSH_THEME="miloshadzic"
-COMPLETION_WAITING_DOTS="true"
-DISABLED_UNTRACKED_FILES_DIRTY="true"
-plugins=(git ruby)
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
+if [ -e /Users/alan/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/alan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
-source $ZSH/oh-my-zsh.sh
-
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
-ulimit -S -n 2048
-
+alias be="bundle exec"
 alias d="dev"
-alias g="git"
 alias dt="dev test"
 alias dtc="dev typecheck"
+alias g="git"
