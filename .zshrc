@@ -2,7 +2,6 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
 export LANG="en_US.UTF-8"
-export GOPATH="/Users/alan/go"
 export PATH="/usr/local/sbin:$PATH"
 
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
