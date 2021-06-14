@@ -3,11 +3,11 @@
 # Grab sudo
 sudo true
 
-brew tap \
-  homebrew/cask \
-  homebrew/cask-fonts \
-  homebrew/cask-versions \
-  teamookla/speedtest
+brew tap homebrew/cask
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
+brew tap SoMuchForSubtlety/tap
+brew tap teamookla/speedtest
   
 brew update
 
@@ -40,6 +40,7 @@ brew install \
   ripgrep \
   roon \
   slack-beta \
+  SoMuchForSubtlety/tap/f1viewer \
   speedtest \
   spotify \
   starship \
