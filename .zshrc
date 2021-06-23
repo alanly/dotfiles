@@ -4,4 +4,5 @@ export PATH="$HOME/.cargo/bin:/usr/local/sbin:$PATH"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
+alias d="dev"
 alias g="git"
