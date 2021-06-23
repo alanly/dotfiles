@@ -9,9 +9,8 @@ if [ $SPIN ]; then
     vim
     
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --quiet --profile default --no-modify-path -y
-  source ~/.cargo/env
 
-  cargo install \
+  ~/.cargo/bin/cargo install \
     lsd \
     ripgrep \
     starship \
