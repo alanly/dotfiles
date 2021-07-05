@@ -30,9 +30,5 @@ if [ $SPIN ]; then
   
   # Link Zsh configuration
   ln -sf ~/dotfiles/.zshrc ~/.zshrc
-  
-  # Link modified Spin `server` command for Core
-  ln -sf ~/dotfiles/spin-bin/core-server.sh ~/.spin/bin/server
-  chmod +x ~/.spin/bin/server
 
 fi
