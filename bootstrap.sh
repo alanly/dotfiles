@@ -30,5 +30,8 @@ if [ $SPIN ]; then
   
   # Link Zsh configuration
   ln -sf ~/dotfiles/.zshrc ~/.zshrc
+  
+  # Kick off Hedwig suite
+  bash ~/dotfiles/spin-core-server.sh
 
 fi
