@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Link Starship configuration
-ln -sf ~/dotfiles/.config/starship.toml ~/.config/starship.toml
+ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
 
 # Link Git configuration
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
