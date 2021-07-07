@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Create a new window in the `server` tmux session for Hedwig workers.
+
 tmux new-window -t "server:1" -n "hedwig" -c "~/src/github.com/shopify/shopify"
 
 tmux split-window -t 0 -h
