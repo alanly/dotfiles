@@ -1,6 +1,6 @@
 [alias]
 	a = add
-	am = commit --amend -C @
+	am = commit --amend --no-edit
 	br = branch
 	ch = cherry-pick
 	ci = commit
