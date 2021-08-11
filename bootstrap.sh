@@ -9,10 +9,5 @@ if [ $SPIN ]; then
   
   # Symlink configs
   bash ~/dotfiles/spin-scripts/link-configs.sh
-  
-  # Bootstrap `shopify` specific things
-  if [ $SPIN_SHOPIFY_SERVICE_FQDN ]; then
-    bash ~/dotfiles/spin-scripts/boot-hedwig-workers.sh
-  fi
 
 fi
