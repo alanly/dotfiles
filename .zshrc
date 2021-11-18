@@ -6,3 +6,5 @@ eval "$(zoxide init zsh)"
 
 alias d="dev"
 alias g="git"
+alias sc="systemctl"
+alias jc="journalctl"
