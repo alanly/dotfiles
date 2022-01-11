@@ -8,11 +8,11 @@
 	clb = !CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co main && git cl && git co $CURRENT_BRANCH
 	co = checkout
 	f = fetch
-	from = !git fetch origin master && git rom
+	from = !git fetch origin main && git rom
 	po = !git push origin +\"$(git rev-parse --abbrev-ref HEAD)\"
 	rom = rebase origin/main
 	s = status
-	ultraclean = !CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co master && git from && git cl && git gc --aggressive && git prune && git co $CURRENT_BRANCH
+	ultraclean = !CURRENT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\" && git co main && git from && git cl && git gc --aggressive && git prune && git co $CURRENT_BRANCH
 [color]
 	ui = true
 [core]
