@@ -8,3 +8,4 @@ alias d="dev"
 alias g="git"
 alias sc="systemctl"
 alias jc="journalctl"
+alias f='rgfzf() { rg --files | fzf --query "$1" --bind "enter:execute(code -r {})" }; rgfzf'
