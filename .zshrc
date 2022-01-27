@@ -8,4 +8,4 @@ alias d="dev"
 alias g="git"
 alias sc="systemctl"
 alias jc="journalctl"
-alias f='rgfzf() { rg --files -g \'!*.rbi\'| fzf --query "$1" --bind "enter:accept+execute-silent(code -r {})" }; rgfzf'
+alias f='rgfzf() { rg --files -g \'!*.rbi\' | fzf --query "$1" --bind "enter:accept+execute-silent(code -r {})" }; rgfzf'
