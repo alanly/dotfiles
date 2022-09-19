@@ -6,4 +6,5 @@ sudo apt-get install -y \
   htop \
   vim
 
+# Install Starship prompt
 curl -sS https://starship.rs/install.sh | sh -s -- --yes=1
