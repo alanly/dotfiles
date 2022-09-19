@@ -15,4 +15,5 @@ fi
 if [ $SPIN ]; then
   alias f='rgfzf() { rg --files -g '\''!*.rbi'\'' | fzf --query "$1" --bind "enter:accept+execute-silent(code -r {})" }; rgfzf'
   alias rc="ruby ~/dotfiles/spin-scripts/refresh_constellation.rb"
+  export PATH="$HOME/.local/bin:$PATH"
 fi
