@@ -10,6 +10,7 @@ if [ $SPIN ]; then
   alias rc="ruby ~/dotfiles/spin-scripts/refresh_constellation.rb"
   alias dt="dev tc && dev style --include-branch-commits && dev test --include-branch-commits"
   export PATH="$HOME/.local/bin:$PATH"
+  export TERM=xterm-256color
 fi
 
 eval "$(starship init zsh)"
